@@ -10,6 +10,7 @@ import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Form from "./Form.jsx";
 
 const router = createBrowserRouter([
 	{
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
 	{
 		path: "/about",
 		element: <About />,
+	},
+	{
+		path: "/generate-qr",
+		element: <Form />,
 	},
 	{
 		path: "/course",

@@ -1,6 +1,9 @@
+import { useState } from "react";
 import logo from "./images/logof.jpg";
 
 const Header = () => {
+	const [toggle, setToggle] = useState(false);
+
 	return (
 		<header>
 			<div className="header-top-bar">
@@ -45,12 +48,18 @@ const Header = () => {
 						aria-controls="navbarmain"
 						aria-expanded="false"
 						aria-label="Toggle navigation"
+						onClick={() => setToggle(!toggle)}
 					>
 						<span className="icofont-navigation-menu"></span>
 					</button>
 
-					<div className="collapse navbar-collapse" id="navbarmain">
-						<ul className="navbar-nav ml-auto">
+					<div
+						className={`collapse navbar-collapse ${
+							toggle && "show"
+						}`}
+						id="navbarmain"
+					>
+						<ul className="navbar-nav ml-auto ">
 							<li className="nav-item active ">
 								<a className="nav-link" href="/">
 									Home
