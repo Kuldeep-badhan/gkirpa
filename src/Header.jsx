@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "./images/logof.jpg";
+import logo from "./images/gk_logo.png";
 
 const Header = () => {
 	const [toggle, setToggle] = useState(false);
@@ -12,9 +12,9 @@ const Header = () => {
 						<div className="col-lg-6">
 							<ul className="top-bar-info list-inline-item pl-0 mb-0">
 								<li className="list-inline-item">
-									<a href="mailto:gurukirpahealthcarehospital86@gmail.com">
+									<a href="mailto:gurukirpa11114444@gmail.com">
 										<i className="icofont-support-faq mr-2"></i>
-										gurukirpahealthcarehospital86@gmail.com
+										gurukirpa11114444@gmail.com
 									</a>
 								</li>
 								<li className="list-inline-item">

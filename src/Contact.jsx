@@ -39,7 +39,7 @@ const contact = () => {
 								<i className="icofont-support-faq"></i>
 								<h5>Email Us</h5>
 								<span>
-									gurukirpahealthcarehospital86@gmail.com
+									gurukirpa11114444@gmail.com
 								</span>
 							</div>
 						</div>
