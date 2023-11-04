@@ -1,11 +1,11 @@
+import gynae from "./treatments/gynae-min.jpg"
+import ki from "./treatments/ki-min.jpg"
+import ut from "./treatments/ut-min.jpg"
+import phy from "./treatments/phy-min.jpg"
+import heart from "./treatments/heart-min.jpg"
 import about from "./images/service/aboutT.jpg";
-import yoga from "./images/service/yoga.jpg";
-import healthOffice from "./images/service/healthOffice.jpg";
-import ear from "./images/ear.jpg";
-import nanny from "./images/nanny-care.jpg"
-import care from "./images/care.jpg"
 
-const Course = () => {
+const Treatments = () => {
     return (
         <div>
             <section className="page-title bg-1">
@@ -15,10 +15,10 @@ const Course = () => {
                         <div className="col-md-12">
                             <div className="block text-center">
                                 <h1 className="text-capitalize mb-5 text-lg">
-                                    Our Institution
+                                    Treatments We Offer
                                 </h1>
                                 <span className="text-white">
-									Learn by Doing with our experts
+									Get the treatment that you deserve
 								</span>
                             </div>
                         </div>
@@ -30,18 +30,16 @@ const Course = () => {
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="service-block mb-5">
-                                <img src={about} alt="" className="img-fluid"/>
+                                <img src={ut} alt="" className="img-fluid"/>
                                 <div className="content">
                                     <h4 className="mt-4 mb-2 title-color">
                                         {" "}
-                                        Diploma in laboratory
+                                        Uterine Fibroid <br/>
+                                        (Without Surgery)
+
                                     </h4>
-                                    <div className="time">
-                                        <span>Duration</span>
-                                        <span> 6 Months</span>
-                                    </div>
                                     <p className="mb-4 gray justify">
-                                        A Diploma in Laboratory Science is a program that equips students with the knowledge and skills needed to work in various laboratory settings. It covers topics like scientific techniques, equipment operation, and data analysis, preparing individuals for careers in research, healthcare, or quality control.
+                                        Uterine fibroids are noncancerous growths in the uterus. Surgery is an option for some cases, but non-surgical treatments like medications, embolization, or focused ultrasound therapy can effectively manage symptoms without surgery. The choice of treatment depends on the fibroids size, location, and your preferences.
                                     </p>
                                 </div>
                             </div>
@@ -49,18 +47,16 @@ const Course = () => {
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="service-block mb-5">
-                                <img src={yoga} alt="" className="img-fluid"/>
+                                <img src={ki} alt="" className="img-fluid"/>
                                 <div className="content">
                                     <h4 className="mt-4 mb-2  title-color">
                                         {" "}
-                                        Diploma in Yoga Instructor
+                                        Renal Calculi <br/>
+                                        (Without Surgery)
+
                                     </h4>
-                                    <div className="time">
-                                        <span>Duration </span>
-                                        <span>6 Months</span>
-                                    </div>
                                     <p className="mb-4 gray justify">
-                                        A Diploma in Yoga focuses on the principles of yoga, including postures, breathing techniques, and meditation. This program helps students become certified yoga instructors or practitioners, promoting physical and mental well-being.
+                                        Renal calculi, also known as kidney stones, are mineral deposits that can cause severe pain. While surgery is an option for some cases, non-surgical treatments like drinking plenty of water, medication, and dietary changes can help pass or dissolve smaller stones. These non-surgical approaches can be effective in managing kidney stones.
                                     </p>
                                 </div>
                             </div>
@@ -69,20 +65,17 @@ const Course = () => {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="service-block mb-5">
                                 <img
-                                    src={healthOffice}
+                                    src={phy}
                                     alt=""
                                     className="img-fluid"
                                 />
                                 <div className="content">
                                     <h4 className="mt-4 mb-2 title-color">
-                                        Diploma in First Aid
+                                        Physiotherapy
                                     </h4>
-                                    <div className="time">
-                                        <span>Duration </span>
-                                        <span>6 Months</span>
-                                    </div>
+
                                     <p className="mb-4 gray justify">
-                                        A Diploma in First Aid teaches essential life-saving skills such as CPR, wound care, and emergency response. Graduates are prepared to provide immediate assistance in medical emergencies, making them valuable in both personal and professional settings.
+                                        Physiotherapy, or physical therapy, is a healthcare profession that focuses on improving physical function and mobility. It involves exercises, manual therapy, and various techniques to treat and prevent injuries, manage pain, and enhance overall well-being. Physiotherapists work with individuals of all ages and conditions to help them regain strength, flexibility, and independence.
                                     </p>
                                 </div>
                             </div>
@@ -90,17 +83,14 @@ const Course = () => {
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="service-block mb-5 mb-lg-0">
-                                <img src={ear} alt="" className="" />
+                                <img src={heart} alt="" className=""/>
                                 <div className="content">
                                     <h4 className="mt-4 mb-2 title-color">
-                                        Diploma in Auricular Therapy
+                                        Heart Disease
                                     </h4>
-                                    <div className="time">
-                                        <span>Duration </span>
-                                        <span>6 Months</span>
-                                    </div>
+
                                     <p className="mb-4 gray justify">
-                                        A Diploma in Auricular Therapy involves the study of ear reflex points for holistic healing. It&apos;s a complementary therapy that uses ear acupuncture to address a variety of health concerns, promoting overall wellness and pain management.
+                                        Heart disease refers to a range of conditions that affect the heart&apos;s structure and function. It includes coronary artery disease, heart failure, and arrhythmias. Risk factors include high blood pressure, high cholesterol, and smoking. Preventive measures include a healthy lifestyle, diet, exercise, and medication. Early detection and management are crucial for heart health.
                                     </p>
                                 </div>
                             </div>
@@ -108,39 +98,18 @@ const Course = () => {
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="service-block mb-5 mb-lg-0">
-                                <img src={care} alt="" className="img-fluid"/>
+                                <img src={gynae} alt="" className="img-fluid"/>
                                 <div className="content">
                                     <h4 className="mt-4 mb-2 title-color">
-                                        Diploma in Care Assistant
+                                        Gynecology
                                     </h4>
-                                    <div className="time">
-                                        <span>Duration </span>
-                                        <span>6 Months</span>
-                                    </div>
                                     <p className="mb-4 gray justify">
-                                        A Diploma in Care Assistant program prepares individuals to work as professional care assistants in healthcare settings. It covers patient care, medical procedures, and communication skills. Graduates can provide quality care in hospitals, nursing homes, and other healthcare facilities
+                                        Gynecology is a medical specialty focused on women&apos;s reproductive health, including the female reproductive system and associated health issues. Gynecologists diagnose and treat conditions like menstrual disorders, pregnancy, infertility, and sexually transmitted infections. Regular gynecological check-ups are essential for women&apos;s overall well-being and reproductive health.
                                     </p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="service-block mb-5 mb-lg-0">
-                                <img src={nanny} alt="" className="img-fluid"/>
-                                <div className="content">
-                                    <h4 className="mt-4 mb-2 title-color">
-                                        Diploma in Nany Care
-                                    </h4>
-                                    <div className="time">
-                                        <span>Duration </span>
-                                        <span>6 Months</span>
-                                    </div>
-                                    <p className="mb-4 gray justify">
-                                        A nanny care diploma program trains individuals to become professional nannies or child caregivers, covering child safety, nutrition, psychology, and age-appropriate activities. It leads to job opportunities in childcare settings.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </section>
@@ -172,4 +141,4 @@ const Course = () => {
     );
 };
 
-export default Course;
+export default Treatments;

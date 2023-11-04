@@ -60,7 +60,7 @@ const Header = () => {
 						id="navbarmain"
 					>
 						<ul className="navbar-nav ml-auto ">
-							<li className="nav-item active ">
+							<li className="nav-item ">
 								<a className="nav-link" href="/">
 									Home
 								</a>
@@ -68,6 +68,11 @@ const Header = () => {
 							<li className="nav-item">
 								<a className="nav-link" href="/course">
 									Institute
+								</a>
+							</li>
+							<li className="nav-item">
+								<a className="nav-link" href="/treatments">
+									Treatments
 								</a>
 							</li>
 							<li className="nav-item">

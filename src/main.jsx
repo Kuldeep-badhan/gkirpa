@@ -11,11 +11,16 @@ import Footer from "./Footer.jsx";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Form from "./Form.jsx";
+import Treatment from "./Treatment.jsx";
 
 const router = createBrowserRouter([
 	{
 		path: "/checkstudent",
 		element: <CheckStudent />,
+	},
+	{
+		path: "/treatments",
+		element: <Treatment />,
 	},
 	{
 		path: "/checkstudent/:id",

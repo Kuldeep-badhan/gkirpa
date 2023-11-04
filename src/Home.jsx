@@ -1,5 +1,5 @@
 import img1 from "./images/about/img-1.jpg";
-import drSaab from "./images/about/dr_saab.jpg";
+import drSaab from "./images/doc.jpg";
 
 const Home = () => {
     return (
@@ -170,6 +170,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
+
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="service-item mb-4">
                                 <div className="icon d-flex align-items-center">
@@ -186,6 +187,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
+
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="service-item mb-4">
                                 <div className="icon d-flex align-items-center">
@@ -202,6 +204,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
+
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="service-item mb-4">
                                 <div className="icon d-flex align-items-center">
@@ -218,6 +221,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
+
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="service-item mb-4">
                                 <div className="icon d-flex align-items-center">
@@ -235,6 +239,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
+
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="service-item mb-4">
                                 <div className="icon d-flex align-items-center">

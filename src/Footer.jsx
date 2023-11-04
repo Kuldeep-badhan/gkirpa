@@ -45,7 +45,7 @@ const Footer = () => {
                                         <a href="/course">Institute</a>
                                     </li>
                                     <li>
-                                        <a href="/about">About</a>
+                                        <a href="/treatments">Treatments</a>
                                     </li>
                                 </ul>
                             </div>
@@ -61,6 +61,9 @@ const Footer = () => {
                                 <ul className="list-unstyled footer-menu lh-35">
                                     <li>
                                         <a href="/contact">Contact Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="/about">About</a>
                                     </li>
                                 </ul>
                             </div>
