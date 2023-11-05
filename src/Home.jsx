@@ -1,5 +1,5 @@
 import img1 from "./images/about/img-1.jpg";
-import drSaab from "./images/doc.jpg";
+import drSaab from "./images/consultant.jpg";
 
 const Home = () => {
     return (

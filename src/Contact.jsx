@@ -47,7 +47,7 @@ const contact = () => {
 							<div className="contact-block mb-4 mb-lg-0">
 								<i className="icofont-location-pin"></i>
 								<h5>Location</h5>
-								<span>Nainwan Road, Pojewal Saran -144524</span>
+								<span>Garhshankar Anandpur Road Near PNB Pojewal Saran</span>
 							</div>
 						</div>
 					</div>
@@ -59,7 +59,7 @@ const contact = () => {
 			<br />
 			<div className="google-map">
 				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4085.8104141357476!2d76.2870141664245!3d31.247713077188635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391ab7af5d69539d%3A0x815b43c387ab969f!2sGuru%20Kirpa%20Health%20Care%20hospital%2C%20Nainwan%20Road%2C%20Pojewal%20Saran%2C%20144524!5e0!3m2!1sen!2sin!4v1677738767624!5m2!1sen!2sin"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.029596449711!2d76.2896044!3d31.247604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391ab7af5d69539d%3A0x815b43c387ab969f!2sGuru%20Kirpa%20hospital%26%20Maternity%20Home%2CNear%20Govt%20school%2C%20Pojewal%20Saran%2C%20144524!5e0!3m2!1sen!2sin!4v1699200244308!5m2!1sen!2sin"
 					width="100%"
 					height="456"
 					style={{ border: "0" }}

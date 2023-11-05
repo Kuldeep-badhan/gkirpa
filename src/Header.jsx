@@ -19,7 +19,7 @@ const Header = () => {
 								</li>
 								<li className="list-inline-item">
 									<i className="icofont-location-pin mr-2"></i>
-									Nainwan Road Pojewal Saran -144524
+									Garhshankar Anandpur Road Near PNB Pojewal Saran
 								</li>
 							</ul>
 						</div>
