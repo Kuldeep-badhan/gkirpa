@@ -3,7 +3,7 @@ import ki from "./treatments/ki-min.jpg"
 import ut from "./treatments/ut-min.jpg"
 import phy from "./treatments/phy-min.jpg"
 import heart from "./treatments/heart-min.jpg"
-import about from "./images/service/aboutT.jpg";
+
 
 const Treatments = () => {
     return (

@@ -1,5 +1,10 @@
 import img1 from "./images/about/img-1.jpg";
 import drSaab from "./images/consultant.jpg";
+import ut from "./treatments/ut-min.jpg";
+import ki from "./treatments/ki-min.jpg";
+import phy from "./treatments/phy-min.jpg";
+import heart from "./treatments/heart-min.jpg";
+import gynae from "./treatments/gynae-min.jpg";
 
 const Home = () => {
     return (
@@ -134,7 +139,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className="section service gray-bg">
+            <section className="section service-2 gray-bg">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-7 text-center">
@@ -149,115 +154,89 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="service-item mb-4">
-                                <div className="icon d-flex align-items-center">
-                                    <img width="50" height="50" src="https://img.icons8.com/ios/50/laboratory.png" alt="laboratory"/>
-                                    <h4 className="mt-3 mb-3">
-                                        Laboratory services
-                                    </h4>
-                                </div>
-
+                            <div className="service-block mb-5">
+                                <img src={ut} alt="" className="img-fluid"/>
                                 <div className="content">
-                                    <p className="mb-4">
-                                        Our hospital&apos;s state-of-the-art
-                                        laboratory offers a comprehensive range
-                                        of diagnostic services, including blood
-                                        tests, imaging, and microbiology.
+                                    <h4 className="mt-4 mb-2 title-color">
+                                        {" "}
+                                        Uterine Fibroid <br/>
+                                        (Without Surgery)
+
+                                    </h4>
+                                    <p className="mb-4 gray justify">
+                                        Uterine fibroids are noncancerous growths in the uterus. Surgery is an option for some cases, but non-surgical treatments like medications, embolization, or focused ultrasound therapy can effectively manage symptoms without surgery. The choice of treatment depends on the fibroids size, location, and your preferences.
                                     </p>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="service-item mb-4">
-                                <div className="icon d-flex align-items-center">
-                                    <img width="50" height="50" src="https://img.icons8.com/ios/50/uterus.png" alt="uterus"/>
-                                    <h4 className="mt-3 mb-3">
-                                        Uterine Fibroid <br/> (Without Surgery)
-                                    </h4>
-                                </div>
-
+                            <div className="service-block mb-5">
+                                <img src={ki} alt="" className="img-fluid"/>
                                 <div className="content">
-                                    <p className="mb-4">
-                                        Uterine fibroids are noncancerous growths in the uterus, common among women. They can lead to symptoms like heavy bleeding and pelvic pain.
+                                    <h4 className="mt-4 mb-2  title-color">
+                                        {" "}
+                                        Renal Calculi <br/>
+                                        (Without Surgery)
+
+                                    </h4>
+                                    <p className="mb-4 gray justify">
+                                        Renal calculi, also known as kidney stones, are mineral deposits that can cause severe pain. While surgery is an option for some cases, non-surgical treatments like drinking plenty of water, medication, and dietary changes can help pass or dissolve smaller stones. These non-surgical approaches can be effective in managing kidney stones.
                                     </p>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="service-item mb-4">
-                                <div className="icon d-flex align-items-center">
-                                    <img width="50" height="50" src="https://img.icons8.com/ios/50/kidney.png" alt="kidney"/>
-                                    <h4 className="mt-3 mb-3">
-                                        Renal Calculi <br/> (Without Surgery)
-                                    </h4>
-                                </div>
-
+                            <div className="service-block mb-5">
+                                <img
+                                    src={phy}
+                                    alt=""
+                                    className="img-fluid"
+                                />
                                 <div className="content">
-                                    <p className="mb-4">
-                                        Renal calculi, commonly known as kidney stones, are hard mineral and salt deposits that form in the kidneys or urinary tract. These small, pebble-like structures can cause intense pain.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="service-item mb-4">
-                                <div className="icon d-flex align-items-center">
-                                    <img width="50" height="50" src="https://img.icons8.com/ios/50/physical-therapy.png" alt="physical-therapy"/>
-                                    <h4 className="mt-3 mb-3">
+                                    <h4 className="mt-4 mb-2 title-color">
                                         Physiotherapy
                                     </h4>
-                                </div>
 
-                                <div className="content">
-                                    <p className="mb-4">
-                                        Physiotherapy, or physical therapy, is a healthcare profession that helps people recover from injuries, illnesses, or physical limitations. It involves exercises and therapies.
+                                    <p className="mb-4 gray justify">
+                                        Physiotherapy, or physical therapy, is a healthcare profession that focuses on improving physical function and mobility. It involves exercises, manual therapy, and various techniques to treat and prevent injuries, manage pain, and enhance overall well-being. Physiotherapists work with individuals of all ages and conditions to help them regain strength, flexibility, and independence.
                                     </p>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="service-item mb-4">
-                                <div className="icon d-flex align-items-center">
-                                    <img width="50" height="50" src="https://img.icons8.com/ios/50/like--v1.png" alt="like--v1"/>
-                                    <h4 className="mt-3 mb-3">Heart Disease</h4>
-                                </div>
+                            <div className="service-block mb-5 mb-lg-0">
+                                <img src={heart} alt="" className=""/>
                                 <div className="content">
-                                    <p className="mb-4">
-                                        we offer comprehensive heart disease
-                                        services to diagnose, treat and manage
-                                        heart conditions. We are committed to
-                                        providing the highest quality of care to
-                                        our patients.
+                                    <h4 className="mt-4 mb-2 title-color">
+                                        Heart Disease
+                                    </h4>
+
+                                    <p className="mb-4 gray justify">
+                                        Heart disease refers to a range of conditions that affect the heart&apos;s structure and function. It includes coronary artery disease, heart failure, and arrhythmias. Risk factors include high blood pressure, high cholesterol, and smoking. Preventive measures include a healthy lifestyle, diet, exercise, and medication. Early detection and management are crucial for heart health.
                                     </p>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="service-item mb-4">
-                                <div className="icon d-flex align-items-center">
-                                    <img width="64" height="64" src="https://img.icons8.com/external-outline-berkahicon/64/external-avatar-medical-worker-avatar-outline-berkahicon-34.png" alt="external-avatar-medical-worker-avatar-outline-berkahicon-34"/>
-
-
-                                    <h4 className="mt-3 mb-3">Gynecology</h4>
-                                </div>
+                            <div className="service-block mb-5 mb-lg-0">
+                                <img src={gynae} alt="" className="img-fluid"/>
                                 <div className="content">
-                                    <p className="mb-4">
-                                        Our experienced gynecologists
-                                        and women&apos;s health specialists are
-                                        dedicated to providing compassionate and
-                                        personalized care to each patient.
+                                    <h4 className="mt-4 mb-2 title-color">
+                                        Gynecology
+                                    </h4>
+                                    <p className="mb-4 gray justify">
+                                        Gynecology is a medical specialty focused on women&apos;s reproductive health, including the female reproductive system and associated health issues. Gynecologists diagnose and treat conditions like menstrual disorders, pregnancy, infertility, and sexually transmitted infections. Regular gynecological check-ups are essential for women&apos;s overall well-being and reproductive health.
                                     </p>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
