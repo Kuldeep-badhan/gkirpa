@@ -42,7 +42,7 @@ const DocumentRetrieval = () => {
 			>
 				<input
 					type="text"
-					placeholder="Enter Student ID"
+					placeholder="Enter Document ID"
 					value={docId}
 					onChange={handleDocIdChange}
 					style={{
